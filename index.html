@@ -37,89 +37,63 @@
 
             <div class="content">
                 <h2 id="about"><font color = "dimgray">About</font></h2><br>
-                <div class="flexbox">
-                    <div class="left-item">
-                        <img src="images/myface.png" alt="自分の顔写真" width="300px" height="300px">
 
-                        <h4 class="myself">
-                            <span class="box">
-                                名前 : 山本一樹<br>
-                                生年月日 : 2000年7月15日<br>
-                                希望職種 : WEBエンジニア<br>
-                                スキル : PHP MySQL C言語 HTML CSS JavaScript<br>
-                                勉強中 : Laravel<br>
-                            </span>
-                        </h4>
-                    </div>
-                    <div class="right-item">
-                            <h4 class = "myself">経歴 : </h4>
-                        <p class="myself">
-                            鳥取県米子市出身。<br>
-                            2016年4月、国立米子工業高等専門学校電子制御工学科へ<br>
-                            入学。C言語、アセンブラ(CASL II)、マイコン(Arduino)<br>
-                            電気・電子回路などについて学んだ。<br>
-                            2019年3月、国立米子工業高等専門学校電子制御工学科を<br>
-                            中途退学。<br>
-                            2019年4月、WEBエンジニアを目指し専門学校HAL名古屋<br>
-                            WEB学科へ入学。<br>
-                            現在はバックエンドエンジニアを目指してPHP、Laravel<br>
-                            を勉強中。
-                        </p>
-                    </div>
+                <div class = "about-wrap">
+                  <div class = "about">
+
+                    <h4 class="myself">
+                      名前 : 山本一樹<br>
+                      生年月日 : 2000年7月15日<br>
+                      希望職種 : WEBエンジニア<br>
+                      興味があるもの : IoT, AI<br>
+                      スキル : PHP, MySQL, C言語<br>
+                      勉強中 : Ruby, Rails, Python<br>
+                    </h4>
+
+                    <h4 class = "myself">経歴 : </h4>
+                    <p class="myself career">
+                      鳥取県米子市出身。<br>
+                      2016年4月、国立米子工業高等専門学校電子制御工学科へ<br>
+                      入学。C言語、アセンブラ(CASL II)、マイコン(Arduino)<br>
+                      電気・電子回路などについて学んだ。<br>
+                      2019年3月、国立米子工業高等専門学校電子制御工学科を<br>
+                      中途退学。<br>
+                      2019年4月、WEBエンジニアを目指し専門学校HAL名古屋<br>
+                      WEB学科へ入学。<br>
+                      現在はバックエンドエンジニアを目指してRuby、Rails、<br>
+                      Pythonを勉強中。
+                    </p>
+
                 </div>
-
+            </div>
 
             <h2 id="works"><font color = "dimgray">Works</font></h2><br><br>
                 <div class="works">
-                    <h3 id="work1">作品1 : グラフィカルアクセスカウンタ</h3><br>
-                    <img src="images/work1.png" width="1000px"><br>
+                    <h3 id="work1">作品1 : プログラミング実践サイト</h3><br>
+                    <img src="images/work1_1.png" width="1000px"><br>
                     <p>
-                        ページが更新される度にアクセス数がカウントされるwebシステムです。<br>
-                        日付が変わる、またはカウンタクリアボタンが押されると、アクセス数が<br>
-                        リセットされます。総アクセス数はリセットされません。<br><br>
+                        実際にプログラムを実行して問題を解くことができるサイトです。<br>
+                        現在はPHP, Ruby, Python, C言語に対応しています。<br>
+                        それぞれの言語に3つのコースが用意されており、コースの問題に<br>
+                        正解するとレベルアップします。<br>
+                        また、言語別で他のユーザに対して質問することができます。<br>
+                        全ユーザはその質問を閲覧することができ、レベル6以上のユーザは<br>
+                        質問に対して回答することができます。<br>
+                        PHPとMySQLを使って開発しました。<br><br>
                     </p>
                         <a href="work1.html" class="btn-flat-simple"><i class="fa fa-caret-right"></i> 作品の詳細へ</a>
+
                     <br><br>
 
-                    <h3 id="work2">作品2 : BBS</h3><br>
-                    <img src="images/work2.png" width="1000px"><br>
-                    <p>
-                        ログイン機能搭載の、電子掲示板です。<br>
-                        一度ログインするとセッションに記録されるので、ログアウト前であれば<br>
-                        同じブラウザ内でログイン状態が保持されます。<br>
-                        スレッドを選択すると、そのスレッドに投稿された内容が表示されます。<br>
-                        既存のスレッドに投稿する、または新規スレッドを立てることができます。<br>
-                        投稿内容は下書きに保存でき、後から読み込むことができます。<br>
-                        投稿時に削除/更新キーを設定し、そのキーを使うと投稿した内容を削除・更新<br>
-                        することが可能です。<br><br>
-                    </p>
-                        <a href="work2.html" class="btn-flat-simple"><i class="fa fa-caret-right"></i> 作品の詳細へ</a>
-                    <br><br>
-
-                    <h3 id="work3">作品3 : 進数変換&amp;ビット演算システム</h3><br>
-                    <img src="images/work3.png" height="600px"><br>
+                    <h3 id="work2">作品2 : 進数変換&amp;ビット演算システム</h3><br>
+                    <img src="images/work2.png" height="600px"><br>
                     <p>
                         10または16進数を2進数に変換するシステムです。<br>
                         高専時代に学んだことを活かし、C言語で制作しました。<br>
                         入力したものを2進数で表示し、論理演算やビットシフト、<br>
                         シフト回転をすることが可能です。<br>
                     </p>
-                        <a href="work3.html" class="btn-flat-simple"><i class="fa fa-caret-right"></i> 作品の詳細へ</a>
-                    <br><br>
-
-                    <h3 id="work4">作品4 : プログラミング学習サービス</h3><br>
-                    <img src="images/work4.png" width="1000px"><br>
-                    <p>
-                        ログイン機能搭載の、電子掲示板です。<br>
-                        一度ログインするとセッションに記録されるので、ログアウト前であれば<br>
-                        同じブラウザ内でログイン状態が保持されます。<br>
-                        スレッドを選択すると、そのスレッドに投稿された内容が表示されます。<br>
-                        既存のスレッドに投稿する、または新規スレッドを立てることができます。<br>
-                        投稿内容は下書きに保存でき、後から読み込むことができます。<br>
-                        投稿時に削除/更新キーを設定し、そのキーを使うと投稿した内容を削除・更新<br>
-                        することが可能です。<br><br>
-                    </p>
-                        <a href="work4.html" class="btn-flat-simple"><i class="fa fa-caret-right"></i> 作品の詳細へ</a>
+                        <a href="work2.html" class="btn-flat-simple"><i class="fa fa-caret-right"></i> 作品の詳細へ</a>
                     <br><br>
                 </div>
             </div>

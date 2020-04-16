@@ -5,28 +5,28 @@
 <meta name="description" content="山本一樹のポートフォリオ">
 <meta name="keywords" content="山本一樹, ポートフォリオ, WEBエンジニア, WEBプログラミング">
 <title>YAMAMOTO KAZUKI PORTFOLIO SITE</title>
-    
+
 <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
 <script src = "js/main.js" type = "text/javascript"></script>
-    
+
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/work.css">
-    
+
 <!-- font awesome -->
 <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    
+
 
 </head>
 
     <body>
-        
+
     <div class="wrapper">
 
         <div class="hero"><img src="images/main.webp" alt="メイン画像"></div>
             <header class="site-header">
-                <h1 class="site-logo">
-                    <font color = "	CornFlowerBlue">Y</font>AMAMOTO <font color = "	CornFlowerBlue">K</font>AZUKI <font color = "	CornFlowerBlue">P</font>ORTFOLIO
-                </h1>
+              <h1 class="site-logo">
+                  <font color = "dimgray"><font color = "	CornFlowerBlue">Y</font>AMAMOTO <font color = "	CornFlowerBlue">K</font>AZUKI <font color = "	CornFlowerBlue">P</font>ORTFOLIO</font>
+              </h1>
                 <nav class="gnav">
                     <ul class="gnav__menu">
                         <li class="gnav__menu__item"><a href="index.html" class="hover_blue">HOME</a></li>
@@ -35,24 +35,100 @@
                     </ul>
                 </nav>
             </header>
-        
+
             <div class="content">
                 <div class="work">
-                <h3 id="work1">作品1 : グラフィカルアクセスカウンタ</h3><br>
+                <h3 id="work1">作品1 : プログラミング実践サイト</h3><br>
+
                 <p class="txt">
-                    作品名 : グラフィカルアクセスカウンタ<br>
-                    制作期間 : 1週間<br>
-                    使用言語 : HTML, CSS, PHP<br>
-                    使用ツール : Google Chrome, Apache2.4<br>
-                    使用エディタ : Brackets<br><br>
-                    
-                    PHPとメモ帳(テキストファイル)を連携させて制作しました。<br>
-                    
+                    制作期間 : 約1.5カ月<br>
+                    使用言語 : PHP, MySQL<br><br>
                 </p>
-                <img src="images/work1.png" width="1000px"><br>
+
+                <h3>①ホーム</h3>
+
+                <img src="images/work1_1.png" width="1000px">
+
+                <p>
+                  ホーム画面です。<br>
+                  現在のレベルと、選択した言語の実績を見ることができます。
+                </p>
+
+                <br><br><br>
+
+                <h3>②言語紹介</h3>
+
+                <img src="images/work1_2.png" width="1000px"><br><br>
+
+                <p>
+                  言語紹介ページです。<br>
+                  選択した言語の概要や使用用途などを見ることができます。
+                </p>
+
+                <br><br><br>
+
+                <h3>③プログラミング実践</h3>
+
+                <img src="images/work1_3.png" width="500px">
+                <img src="images/work1_4.png" width="500px">
+
+                <p>
+                  プログラミング実践ページです。<br>
+                  言語、コースを選択します。言語を選択すると、ひな形が表示されるので、<br>
+                  問題を決めてプログラムを入力します。<br>
+                  回答ボタンで、入力したプログラムを送信します。
+                </p>
+
+                <br><br><br>
+
+                <h3>④実行結果</h3>
+
+                <img src="images/work1_5.png" width="500px">
+                <img src="images/work1_6.png" width="500px">
+
+                <p>
+                  入力したプログラムと、その実行結果が表示されます。<br>
+                  実際に、外部コマンドを実行して、その実行結果を取得しています。<br>
+                  文法のミスなどがあると、結果に<b>プログラムのエラー</b>と表示されます。<br>
+                  答えと一致すれば正解、答えと不一致またはプログラムのエラーだと不正解となります。<br>
+                  初めて問題を正解した場合、ユーザのレベルがアップします。
+                </p>
+
+                <br><br><br>
+
+                <h3>⑤フリープログラム</h3>
+
+                <img src="images/work1_7.png" width="500px">
+                <img src="images/work1_8.png" width="500px"><br><br>
+                <img src="images/work1_9.png" width="500px">
+
+                <p>
+                  選んだ言語を自由に入力・実行できるページです。<br>
+                  言語を選択するとひな形が表示されます。<br>
+                  実践ページと同様に、文法のミスなどがあると、結果に<b>プログラムのエラー</b>と表示されます。<br>
+                  実行ボタンを押すと、ページ下部に入力したプログラムと、その実行結果が表示されます。<br>
+                  実行結果はHTMLで表示するため、改行は&lt;br&gt;タグで行います。
+                </p>
+
+                <br><br><br>
+
+                <h3>⑥質問一覧</h3>
+
+                <img src="images/work1_10.png" width="500px">
+                <img src="images/work1_11.png" width="500px">
+
+                <p>
+                  言語ごとに、他のユーザの質問を閲覧することができるページです。<br>
+                  質問に対する回答も見ることができます。<br>
+                  誰でも質問することが可能です。<br>
+                  レベルが6以上のユーザは、質問に対して回答することができます。<br>
+                </p>
+
+                <a href="index.html" class="btn-flat-simple"><i class="fa fa-caret-right"></i> ホームへ戻る</a>
+
                 </div>
             </div>
-        
+
             <footer class="site-footer">
                 <p class="copyright">&copy;2020 YAMAMOTO KAZUKI</p>
             </footer>
@@ -66,9 +142,9 @@
                         <li class="gnav__menu__item"><a href="#about" class="hover_green">About</a></li>
                         <li class="gnav__menu__item"><a href="#works" class="hover_green">Works</a></li>
                     </ul>
-                </nav>		
+                </nav>
             </div>
         </div>
         </body>
-    
+
 </html>

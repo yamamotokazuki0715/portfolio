@@ -3,8 +3,6 @@
 }
 
 .txt {
-    display: inline-block;
-    text-align: left;
     font-size: 1.3em;
   }
 
@@ -12,10 +10,10 @@ code{
     display: inline-block;
     text-align: left;
     font-size: 1.1em;
+    margin-right: 30px;
 }
 
 pre {
-    background-color: greenyellow;
+    background-color: snow;
     margin: 0 150px;
 }
-

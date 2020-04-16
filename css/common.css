@@ -93,63 +93,22 @@ body{
 	margin-bottom: 40px;
 }
 
-.flexbox {
-    width: auto;
-    height: 800px;
-    padding-left: 20%;
+.about-wrap {
+	text-align: center;
 }
 
-.left-item {
-    float: left;
-}
-
-.left-item h4 {
-    line-height: 3em;
-}
-
-.box {
-    display: block;
-    border: outset;
-}
-
-
-.right-item {
-    float: left;
-    margin-left: 30px;
-    padding-top: 50px;
-    line-height: 2.5em;
+.about {
+	line-height: 3em;
+	display: inline-block;
+	text-align: left;
 }
 
 .myself {
     font-size: 1.2em;
 }
-}
-}
-｝
-】
-}
-}
-}
-｝
-}
-}
-}
-｝
-}
-}
-}
-｝
-】
-}
-}
-}
-｝
-}
-}
-}
 
-.right-item p {
-    margin-left: 40px;
+.career {
+	margin-left: 10px;
 }
 
 .works {
@@ -167,7 +126,7 @@ body{
     font-size: 1.3em;
 }
 
-.works .btn-flat-simple {
+.btn-flat-simple {
     position: relative;
     margin: 0 auto;
     display: block;
@@ -182,7 +141,7 @@ body{
     font-size: 1.2em;
 }
 
-.works .btn-flat-simple:hover {
+.btn-flat-simple:hover {
   background: gray;
   color: lawngreen;
 }
@@ -200,11 +159,11 @@ body{
 
 
 
-/* 
+/*
 html5doctor.com Reset Stylesheet
 v1.6.1
 Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
+Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
@@ -217,7 +176,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
@@ -244,7 +203,7 @@ body {
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
@@ -280,7 +239,7 @@ ins {
 /* change colours to suit your needs */
 mark {
     background-color:#ff9;
-    color:#000; 
+    color:#000;
     font-style:italic;
     font-weight:bold;
 }
@@ -303,7 +262,7 @@ table {
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
